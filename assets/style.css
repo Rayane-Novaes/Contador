@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 5rem;
+    background-color: #000000;
+    font-family: karla;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    
+    background-color: #ae5efa;
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 4rem;
+    width: 16rem;
+    height: 6rem;
+    border-radius: 12px;
+   
+}
+
+.botao:hover  {
+    background-color: #71d0f8;
+    transition: 2s;
+}
+
+#currentNumber{
+    font-size: 4rem;
+}
+
+h1  {
+  font-size: 6rem;
+  color: #71d0f8;
+}
+
+p{
+    font-size: 3rem ;
+    margin: 1rem;
+    padding: 12px;
+}
